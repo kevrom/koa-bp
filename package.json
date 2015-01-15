@@ -1,0 +1,38 @@
+{
+  "name": "koa-bp",
+  "version": "0.0.1",
+  "description": "A base for Koa projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevrom/koa-bp"
+  },
+  "keywords": [
+    "koa",
+    "boilerplate"
+  ],
+  "author": "Kevin Romano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevrom/koa-bp/issues"
+  },
+  "homepage": "https://github.com/kevrom/koa-bp",
+  "dependencies": {
+    "co": "^4.1.0",
+    "co-busboy": "^1.2.0",
+    "co-views": "^0.2.0",
+    "hogan": "^1.0.2",
+    "jade": "^1.9.0",
+    "koa": "^0.14.0",
+    "koa-logger": "^1.2.2",
+    "koa-route": "^2.4.0",
+    "koa-static": "^1.4.8",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10"
+  }
+}
